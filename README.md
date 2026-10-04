@@ -38,3 +38,24 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/HumaaKhann/Terminal-based-Calculator.git
+```
+
+Navigate into the project:
+
+```bash
+cd Terminal-based-Calculator
+```
+
+Install the required library:
+
+```bash
+pip install colorama
+```
+
+Run the calculator:
+
+```bash
+python project2.py
+```
+
+
