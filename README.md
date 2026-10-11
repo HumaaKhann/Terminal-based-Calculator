@@ -9,7 +9,7 @@ A modular, terminal-based scientific calculator and command-line tool built in P
 ```text
 Terminal-based-Calculator/
 │
-├── project2.py               # Interface: Main menu, ASCII keypad and display, advanced REPL, CLI arguments
+├── main.py                   # Interface: Main menu, ASCII keypad and display, advanced REPL, CLI arguments
 │
 ├── expression_parser.py      # Parsing: Tokenizer, token validation, operator precedence, parentheses, Shunting-yard RPN
 │
@@ -30,7 +30,7 @@ Terminal-based-Calculator/
 
 ## Key Features & Architecture
 
-### 1. `project2.py` (Interface)
+### 1. `main.py` (Interface)
 - **Main Menu (Options 1–5):**
   - **[1] Normal Calculator:** Your original step-by-step visual calculator featuring the styled ASCII header, dynamic DISPLAY box, full 4x4 KEYPAD grid, and calculation repeat prompt.
   - **[2] Advanced Expression Calculator:** Interactive REPL (`calc > `) parsing full mathematical expressions with precedence and scientific functions.
@@ -78,7 +78,7 @@ pip install colorama
 
 ### 1. Interactive Menu Mode
 ```bash
-python project2.py
+python main.py
 ```
 Select `1` for the original Visual Keypad Calculator, or `2` for the Advanced Expression Calculator!
 
