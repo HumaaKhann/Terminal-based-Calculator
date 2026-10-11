@@ -8,7 +8,7 @@ import math
 import os
 import sys
 
-from terminal_ui import (
+from terminal import (
     Fore,
     Style,
     clear_screen,
