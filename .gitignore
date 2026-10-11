@@ -1,0 +1,10 @@
+
+#Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# History log (optional or can be kept/ignored; usually ignored for clean repos)
+history.json
+
+#Excludes cache files, bytecode, and local runtime data that shouldn't be committed.
